@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className, "bg-gray-50 min-h-screen flex")}>
         <SideNavbar />
-        <div className="">{children}</div>
+        <div className="w-full">{children}</div>
       </body>
     </html>
   );
