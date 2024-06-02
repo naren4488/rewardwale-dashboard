@@ -31,7 +31,7 @@ const sidebarItems = [
 
 export default function SideNavbar({}: Props) {
   return (
-    <div className="border-r p-4 w-[240px] flex flex-col gap-6 ">
+    <div className=" shadow-md p-4 w-[320px] flex flex-col gap-6 bg-gray-50">
       {/* brand-name */}
       <section className="text-pink-600 flex gap-2 items-center hover:cursor-pointer ">
         <Aperture size={24} />

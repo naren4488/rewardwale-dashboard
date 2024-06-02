@@ -5,7 +5,7 @@ type Props = {};
 
 export default function NavBar({}: Props) {
   return (
-    <div className="w-full flex justify-between py-6 text-gray-500">
+    <div className="w-full shadow-md flex justify-between p-6 text-gray-500 bg-gray-50 ">
       <div className="flex gap-8">
         <p className=" hover:cursor-pointer">Calender</p>
         <p className=" hover:cursor-pointer text-black border-b-2 border-pink-600 font-semibold px-2">
