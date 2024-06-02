@@ -40,12 +40,12 @@ export default function Home() {
 
         {/* charts */}
         <section className="w-full">
-          <div className=" grid grid-cols-3 gap-6 mb-6">
+          <div className=" grid grid-cols-3 max-lg:grid-cols-2 gap-6 mb-6">
             <SessionCard />
             <EventsCard />
             <DeviceStatsCard />
           </div>
-          <div className=" grid grid-cols-4 gap-6 mb-6">
+          <div className=" grid grid-cols-4 max-lg:grid-cols-2 gap-6 mb-6">
             <EmployeeCard />
             <SalesCard />
             <TitleCard />

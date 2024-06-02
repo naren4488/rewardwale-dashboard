@@ -56,7 +56,7 @@ export default function SalesCard({}: Props) {
   return (
     <div className="rounded border p-3 shadow-sm bg-gray-50 col-span-2">
       <div className="flex justify-between items-center">
-        <h2 className="text-xl font-semibold mb-4">Sessions By Channel</h2>
+        <h2 className="text-xl font-semibold mb-4">Seles Analytics</h2>
         <p className="bg-gray-200 p-1 rounded">Month</p>
       </div>
       <div className="mb-4 flex items-center gap-6">
@@ -69,7 +69,7 @@ export default function SalesCard({}: Props) {
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <GlobeLock size={16}/>
+            <GlobeLock size={16} />
             <p>Offline</p>
           </div>
           <p className="text-2xl font-semibold text-[#f48c06]">13,221</p>

@@ -7,7 +7,7 @@ export default function SessionCard({}: Props) {
   return (
     <div className="rounded border p-3 shadow-sm bg-gray-50">
       <h2 className="text-xl font-semibold mb-4">Session By Channel</h2>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between max-lg:flex-col">
         <div className="relative">
           <LoaderCircle size={140} className=" text-indigo-600" />
           <p className=" text-xl font-semibold absolute top-[55px] left-[55px]">
