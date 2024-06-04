@@ -22,7 +22,7 @@ const CircularProgressBar: React.FC<CircularProgressBarProps> = ({ value }) => {
         fill="none"
       />
       <circle
-        className="stroke-current text-blue-500"
+        className="stroke-current text-blue-600"
         cx="50"
         cy="50"
         r={radius}
